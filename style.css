@@ -1,0 +1,97 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?9pxj5o');
+  src:  url('fonts/icomoon.eot?9pxj5o#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?9pxj5o') format('truetype'),
+    url('fonts/icomoon.woff?9pxj5o') format('woff'),
+    url('fonts/icomoon.svg?9pxj5o#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-alarm:before {
+  content: "\e900";
+  font-size: 30px;
+}
+.icon-bell:before {
+  content: "\e900";
+  font-size: 30px;
+}
+.icon-share:before {
+  content: "\e901";
+  font-size: 30px;
+}
+.icon-search:before {
+  content: "\e902";
+  font-size: 20px;
+}
+.icon-caret-right:before {
+  content: "\f0da";
+  font-size: 30px;
+}
+.icon-bell2:before {
+  content: "\f0f3";
+  font-size: 30px;
+}
+.icon-angle-down:before {
+  content: "\f107";
+  font-size: 30px;
+}
+.icon-share2:before {
+  content: "\e903";
+  font-size: 30px;
+}
+.icon-swarm2:before {
+  content: "\e904";
+  color:white ;
+  font-size: 5px;
+}
+.icon-facebook-with-circle:before {
+  content: "\e905";
+  font-size: 30px;
+}
+.icon-instagram-with-circle:before {
+  content: "\e906";
+  font-size: 30px;
+}
+.icon-twitter-with-circle:before {
+  content: "\e907";
+  font-size: 30px;
+}
+.icon-swarm:before {
+  content: "\e90f";
+  font-size: 30px;
+}
+.icon-instagram-with-circle2:before {
+  content: "\e908";
+  font-size: 30px;
+}
+.icon-instagram:before {
+  content: "\e909";
+  font-size: 30px;
+}
+.icon-twitter:before {
+  content: "\e90a";
+  font-size: 30px;
+}
+.icon-youtube-with-circle:before {
+  content: "\e90b";
+  font-size: 30px;
+}
+
