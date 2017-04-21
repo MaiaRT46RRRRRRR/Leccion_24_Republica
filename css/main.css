@@ -1,8 +1,9 @@
 body, html,header{
 	margin: 0 ;
 	padding: 0;
+	width: 1200px;
 }
-h2 , li,a{
+h2 ,h1, li,a{
 	font-family: 'Roboto Slab', serif;
 }
 a{
@@ -17,7 +18,7 @@ p{
 	text-align: center;
 }
 #primera{
-	width: 100%
+	width: 1200px;
 	height:60px;
 	margin: auto;
 	background-color: #E00109;
@@ -48,8 +49,7 @@ a ,span{
 }
 #segunda{
 	height:50px;
-	width: 100%;
-
+	width: 1200px;
 	background-color:#5C5C66;
 	display: table;
 
@@ -59,6 +59,7 @@ a ,span{
 }
  .contenedor{
  	width: 100%;
+ 	background-color: #EFF2EB;
  }
  #share{
  	background-color: grey;
@@ -69,6 +70,40 @@ a ,span{
  	font-size: 10px !important;
  	color: grey;
  }
+ #padre{
+ 	box-sizing: border-box;
+ 	padding: 10px;
+ 	display: table;
+ 	margin: 0;
+ 	width: 100%;
+ 	background-color: grey;
+ 	position: absolute;
+
+ }
+#hijo1{
+	height: auto;
+	width:600px ;
+	box-sizing: border-box;
+	top: 0px;
+	left: 100px;
+	background-color: white;
+	position: relative;
+	display: inline-block;
+}
+#hijo2{
+	display: inline-block;
+	height: auto;
+	width: 400px;
+	box-sizing: border-box;
+	top: 0px;
+	left: 700px;
+	background-color: white;
+	position: relative;
+}
+.contorno{
+	background-color: #687776;
+}
+
 /*AQUI ESTA LO DEL SPRITE*/
 .sprite {
     background-image: url(../images/spritesheet.png);
